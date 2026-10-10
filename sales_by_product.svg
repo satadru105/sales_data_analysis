@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900"
+     height="345" viewBox="0 0 900 345"
+     role="img" aria-labelledby="chart-title chart-description">
+  <title id="chart-title">Revenue by Product</title>
+  <desc id="chart-description">Horizontal bar chart of cleaned sales revenue by product.</desc>
+  <style>
+    text { font-family: Arial, sans-serif; fill: #243247; }
+    .title { font-size: 24px; font-weight: bold; }
+    .label, .value { font-size: 14px; }
+    .bar { fill: #2878b5; }
+    .axis { stroke: #c8d1dc; stroke-width: 1; }
+  </style>
+  <rect width="100%" height="100%" fill="#ffffff" />
+  <text x="180" y="42" class="title">Revenue by Product</text>
+  <line x1="180" y1="78"
+        x2="180" y2="327" class="axis" />
+  <text x="168" y="111" text-anchor="end"
+        class="label">Laptop</text>
+  <rect x="180" y="90" width="570.00" height="28"
+        rx="4" class="bar" />
+  <text x="758.00" y="110"
+        class="value">Rs. 3,889,210.00</text>
+  <text x="168" y="155" text-anchor="end"
+        class="label">Tablet</text>
+  <rect x="180" y="134" width="422.73" height="28"
+        rx="4" class="bar" />
+  <text x="610.73" y="154"
+        class="value">Rs. 2,884,340.00</text>
+  <text x="168" y="199" text-anchor="end"
+        class="label">Phone</text>
+  <rect x="180" y="178" width="419.07" height="28"
+        rx="4" class="bar" />
+  <text x="607.07" y="198"
+        class="value">Rs. 2,859,394.00</text>
+  <text x="168" y="243" text-anchor="end"
+        class="label">Headphones</text>
+  <rect x="180" y="222" width="202.84" height="28"
+        rx="4" class="bar" />
+  <text x="390.84" y="242"
+        class="value">Rs. 1,384,033.00</text>
+  <text x="168" y="287" text-anchor="end"
+        class="label">Monitor</text>
+  <rect x="180" y="266" width="197.57" height="28"
+        rx="4" class="bar" />
+  <text x="385.57" y="286"
+        class="value">Rs. 1,348,071.00</text>
+</svg>
